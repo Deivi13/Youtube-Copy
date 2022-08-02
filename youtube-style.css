@@ -4,58 +4,50 @@ p {
     margin-bottom: 0;
 }
 
-.thumbnail{
-    width: 300px;
-    display: block;
-
+.thumbnail {
+    width: 100%;
 }
-.search-bar{
 
+.search-bar {
     display: block;
 }
 
-.video-title{
+.video-title {
     margin-top: 0;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 20px;
     margin-bottom: 12px;
 }
 
-.video-example {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
-.channel-picture{
-    display: inline-block;
-    width: 50px;
-    vertical-align: top;
+.profile-picture {
+    width: 40px;
+    border-radius: 50px;
 }
 
-.video-info{
-    display: inline-block;
-    width: 200px;
-}
-
-.profile-picture{
-    width: 36px;
-    border-radius: 36px;
-}
-
-.thumbnail-row{
+.thumbnail-row {
     margin-bottom: 12px;
 }
 
 .video-author,
-.video-stats{
+.video-stats {
     font-size: 12px;
     color: rgb(96, 96, 96);
 }
 
-.video-author{
+.video-author {
     margin-bottom: 4px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }
 
